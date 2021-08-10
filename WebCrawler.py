@@ -34,6 +34,7 @@ class WebCrawler():
                 newLink = link.get('href')
                 if (newLink and re.match(regex, newLink)):
                     if (not newLink in linksVisited and not newLink in linksToVisit):
+                        linksVisited.add(newLink)
                         linksToVisit.append(newLink)
 
     def __Crawl(self):
