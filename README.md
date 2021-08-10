@@ -1,4 +1,4 @@
-# PythonWebCrawler
+# Python web crawler using BeautifulSoup 4
 
 DISCLAIMER: This will only work if you have BeautifulSoup 4 installed
 
