@@ -19,10 +19,10 @@ regex = re.compile(
 
 #Main class
 class WebCrawler():
-    def __init__(self, urlsToVisit = [], maxDepth = 10):
-        self.__URLsToVisit  = urlsToVisit
+    def __init__(self, URLsToVisit = [], MaxDepth = 10):
+        self.__URLsToVisit  = URLsToVisit
         self.__URLsVisited  = set(); 
-        self.TraversalMax   = maxDepth
+        self.TraversalMax   = MaxDepth
         self.Paused         = False
 
     def __AddLinkedURLs(self, tagData):
@@ -94,4 +94,3 @@ class WebCrawler():
             stringReport    = "Paused"
 
         print(f"WebCrawler halted, Status = {stringReport}")
-        
