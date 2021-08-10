@@ -1,5 +1,8 @@
 # PythonWebCrawler
 
+# DISCLAIMER
+THIS WILL ONLY WORK IF YOU HAVE BUCKETSOUP4 INSTALLED
+
 This is the first python project that I've ever done, so please don't expect a lot from it :)
 
 Credits to Ari Bajo and his web crawler guide, https://www.scrapingbee.com/blog/crawling-python/, for guiding me along with the creation of this project
