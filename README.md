@@ -1,7 +1,6 @@
 # PythonWebCrawler
 
-# DISCLAIMER
-THIS WILL ONLY WORK IF YOU HAVE BUCKETSOUP4 INSTALLED
+DISCLAIMER: This will only work if you have BucketSoup 4 installed
 
 This is the first python project that I've ever done, so please don't expect a lot from it :)
 
