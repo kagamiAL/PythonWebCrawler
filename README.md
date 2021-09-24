@@ -12,7 +12,7 @@ Credits to Ari Bajo and his web crawler guide, https://www.scrapingbee.com/blog/
     //URLsToVisit (OPTIONAL): This is a parameter that takes in a list of links the web crawler will visit
     //MaxDepth: This parameter accepts a number that the web crawler will use to restrict the number of links it visits
     
-  - WebCrawler.Start(StartURL) (This method starts the web crawler)
+  - WebCrawler.Start(StartURL: string|None) (This method starts the web crawler)
     //StartURL (Is optional if you have paused the web crawler): Where the web crawler will start its journey
   
   - WebCrawler.Pause() (This method pauses the web crawler)
